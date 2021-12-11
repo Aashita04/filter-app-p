@@ -1,0 +1,45 @@
+#body{
+    background-image: url("https://media.istockphoto.com/videos/fluid-art-painting-video-abstract-acryl-texture-with-colorful-waves-video-id1289868979?s=640x640");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#heading{
+    color: rgb(205, 156, 245);
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-shadow: gold 1px 1px;
+}
+
+canvas{
+    border-radius: 10px;
+    border:3px solid Black;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:rgba(145, 250, 234) 5px 5px 18px ;}
+    to{box-shadow:rgba(102, 64, 189) 5px 5px 18px ;}
+}
+
+button{
+    margin-top: 450px;
+    background-color:rgba(89, 0, 255, 0) ;
+    border-radius: 30px;
+    color:rgb(89, 0, 255) ;
+}
+
+div{
+    height: 500px;
+    width:400px;
+    box-shadow: black 5px 5px 18px;
+    margin-top: 20px;
+}
+
+#button_takesnap:hover{
+    background-color: silver;
+}
+
